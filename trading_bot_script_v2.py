@@ -166,3 +166,4 @@ def make_trade(prediction, adj_balance):
     
     
 make_trade(prediction, adj_balance)
+# trade execution works, need to attempt to query open positions vs new prediction and adjust accordingly (reset sl/tp values if  # it correlates with new prediction or closing position and re-opening in opposite direction otherwise
